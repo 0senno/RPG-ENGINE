@@ -1,0 +1,41 @@
+{
+  "world": {
+    "size": 10,
+    "terrain": [
+      { "x": 0, "y": 0, "type": "plains" },
+      { "x": 1, "y": 0, "type": "forest" },
+      { "x": 2, "y": 0, "type": "mountain" },
+      { "x": 3, "y": 0, "type": "plains" },
+      { "x": 4, "y": 0, "type": "water" },
+      { "x": 5, "y": 0, "type": "plains" },
+      { "x": 6, "y": 0, "type": "forest" },
+      { "x": 7, "y": 0, "type": "plains" },
+      { "x": 8, "y": 0, "type": "mountain" },
+      { "x": 9, "y": 0, "type": "plains" }
+    ]
+  },
+  "npcs": [
+    { "name": "Eldon the Merchant", "kindness": 0.4, "greed": 0.7, "curiosity": 0.2, "x": 5, "y": 5 },
+    { "name": "Mira the Knight", "kindness": 0.8, "greed": -0.2, "curiosity": 0.6, "x": 2, "y": 7 },
+    { "name": "Grax the Raider", "kindness": -0.6, "greed": 0.5, "curiosity": -0.3, "x": 8, "y": 3 }
+  ],
+  "quests": [
+    {
+      "id": 1,
+      "title": "Find the Lost Relic",
+      "description": "Retrieve the ancient relic from the ruins.",
+      "location": { "x": 8, "y": 2 }
+    },
+    {
+      "id": 2,
+      "title": "Escort the Merchant",
+      "description": "Protect Eldon as he travels to the next town.",
+      "location": { "x": 5, "y": 9 }
+    }
+  ],
+  "items": [
+    { "name": "Health Potion", "description": "Restores 5 HP." },
+    { "name": "Iron Sword", "description": "A sturdy sword for close combat." },
+    { "name": "Camping Kit", "description": "Contains tent, rope and bedroll." }
+  ]
+}
